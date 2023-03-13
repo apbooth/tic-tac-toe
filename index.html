@@ -18,7 +18,7 @@
     </header>
     <main>
         <aside id="modal" class="hidden">
-            <h2>Choose your name</h2>
+            <h2>Choose your name <span id="insert-player-name">X</span></h2>
             <form>
                 <div id="name-input">
                     <label for="playername">Player Name</label>
@@ -37,7 +37,7 @@
                         <h2>Player 1</h2>
                         <h3>Player Name</h3>
                         <p>X</p>
-                        <button class="btn btn-alt">Edit</button>
+                        <button id="edit-player-one" class="btn btn-alt">Edit</button>
                     </article>
                 </li>
                 <li>
@@ -45,11 +45,11 @@
                         <h2>Player 2</h2>
                         <h3>Player Name</h3>
                         <p>O</p>
-                        <button class="btn btn-alt">Edit</button>
+                        <button id="edit-player-two" class="btn btn-alt">Edit</button>
                     </article>
                 </li>
             </ol>
-            <button id="modal-window-toggle" class="btn">Start new game</button>
+            <button class="btn start">Start new game</button>
         </section>
         <section id="active-game">
             <article>

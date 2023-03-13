@@ -1,15 +1,17 @@
 const modalPopup = document.getElementById('modal');
-const openModalPopupButton = document.getElementById('modal-window-toggle');
-let toggle = false;
-function toggleModal() {
-    if (!toggle) {
+const editPlayerOne = document.getElementById('edit-player-one');
+const editPlayerTwo = document.getElementById('edit-player-two');
+function toggleModal(event) {
         modalPopup.className = "visible";
-        toggle = true;
-    } else {
-        modalPopup.className = "hidden";
-        toggle = false;
-    }
+        const insertPlayerName = document.getElementById('insert-player-name');
+        if (event.target.id == "edit-player-one") {
+            insertPlayerName.textContent = "Player One";
+        } else {
+            insertPlayerName.textContent = "Player Two"
+        }
+
 }
 
 
-openModalPopupButton.addEventListener('click', toggleModal);
+editPlayerOne.addEventListener('click', toggleModal);
+editPlayerTwo.addEventListener('click', toggleModal);

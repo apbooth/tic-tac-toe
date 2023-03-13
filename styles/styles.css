@@ -50,9 +50,9 @@ body {
 #modal {
     position: absolute;
     top: 15rem;
-    left: 25%;
+    left: 30%;
     width: 50rem;
-    height: 15rem;
+    height: 18rem;
     padding-top: 4rem;
     z-index: 5;
     background-color: rgb(244, 239, 239);
@@ -92,7 +92,7 @@ body {
     font-size: 1.5rem;
 }
 
-#modal-window-toggle {
+.modal-window-toggle {
     align-self: center;
     width: 15rem;
     height: 4rem;
