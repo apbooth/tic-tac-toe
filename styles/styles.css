@@ -54,6 +54,7 @@ body {
     width: 50rem;
     height: 18rem;
     padding-top: 4rem;
+    padding-bottom: 0.75rem;
     z-index: 5;
     background-color: rgb(244, 239, 239);
     border: 1px solid rgb(44, 41, 44);
@@ -97,4 +98,28 @@ body {
     width: 15rem;
     height: 4rem;
     margin-top: 1rem;
+}
+
+.start {
+    width: 15rem;
+    height: 5rem;
+    margin-top: 1.5rem;
+    align-self: center;
+}
+
+#result-modal-window { 
+    position: absolute;
+    top: 15rem;
+    left: 30%;
+    width: 50rem;
+    height: 18rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    z-index: 5;
+    background-color: rgb(244, 239, 239);
+    border: 1px solid rgb(44, 41, 44);
+    box-shadow: 6px 3px 20px;
+    text-align: center;
+    font-size: 1.6rem;
+    visibility: hidden;
 }
